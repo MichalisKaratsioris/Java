@@ -1,5 +1,3 @@
-package com.gfa.exam;
-
 public class DrawPyramid {
     public static void main(String[] args) {
         // Write a program that draws a pyramid like this:

@@ -16,7 +16,8 @@ public class Anagram {
 
     }
 
-    public static boolean isAnagram(String str1, String str2) {
+    public static boolean isAnagram(String str1, String str2) 
+    {
         str1 = str1.replaceAll("\\s", "").toLowerCase();
         str2 = str2.replaceAll("\\s", "").toLowerCase();
 

@@ -14,9 +14,9 @@ public class Bubble {
         //  should print [34, 24, 12, 9, 5]
 
         int[] integers = new int[] {1, 105, 34, 12, 24, 9, 5};
-//        bubble(integers);
-//        bubble(integers, false);
-//        bubble(integers, true);
+        // bubble(integers);
+        // bubble(integers, false);
+        bubble(integers, true);
 
     }
     public static void bubble(int[] arrayInt) {
