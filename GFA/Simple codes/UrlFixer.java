@@ -8,7 +8,7 @@ public class UrlFixer {
 
         // adding the missing ":"
 
-        if (url.indexOf("/") != 6) {
+        if (url.indexOf("//") != 6) {
             String http = url.substring(0,5);
             String www = url.substring(5,url.length());
             url = http.concat(":").concat(www);
